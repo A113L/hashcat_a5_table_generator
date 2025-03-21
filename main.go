@@ -129,7 +129,7 @@ func processWord(word string, subMap map[rune][]rune, minSubstitute, maxSubstitu
 						continue
 					}
 
-					if newSubCount > minSubstitute {
+					if newSubCount >= minSubstitute {
 						out <- string(newWord)
 					}
 
