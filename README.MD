@@ -1,10 +1,11 @@
 # Table-Lookup Attack Tool
 
-A Go program designed to perform a table-lookup attack on passwords.
+A Go program designed to perform a table-lookup attack on passwords. This was quickly vibecoded together so excuse any suboptimal code :P
 
 ## Overview
 
-This tool reads a substitution table from a file and uses it to generate variations of words from a dictionary file. The goal is to efficiently crack passwords that use leetspeak or other character substitutions.
+This tool reads a substitution table from a file and uses it to generate variations of words from a dictionary file. The goal is to efficiently crack passwords that use leetspeak or other character substitutions such as the research on transliteration by Stealthsploit and T0xlc among others (I know a few more deserve credit for research on this topic but i don't have the names. Feel free to reach out)
+Based on: https://hashcat.net/wiki/doku.php?id=table_lookup_attack
 
 ## Configuration
 
