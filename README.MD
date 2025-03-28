@@ -69,7 +69,7 @@ go run main.go --table-file path/to/table.txt --dict path/to/dict.txt
 To compile it:
 ```bash
 go mod tidy
-go mod build
-./hashcat_a5_table_generator --table-file table.txt --dict dict.txt --table-min 1 --table-max 16
+go build
+./hashcat_a5_table_generator
 ```
 Note: This tool is designed to be efficient and fast. However, the performance may vary depending on the size of the dictionary file and the number of threads used.
