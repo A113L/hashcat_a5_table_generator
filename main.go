@@ -17,8 +17,8 @@ import (
 func main() {
 	tableFile := flag.String("table-file", "", "Path to substitution table")
 	dictFile := flag.String("dict", "", "Path to dictionary file")
-	tableMin := flag.Int("table-min", 2, "Minimum password length")
-	tableMax := flag.Int("table-max", 15, "Maximum password length")
+	tableMin := flag.Int("table-min", 1, "Minimum password substitutions")
+	tableMax := flag.Int("table-max", 15, "Maximum password substitutions")
 	threads := flag.Int("threads", runtime.NumCPU(), "Number of threads")
 	flag.Parse()
 
