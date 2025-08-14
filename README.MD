@@ -58,6 +58,7 @@ Each line represents a different combination of substitutions.
 * Cracking leetspeak passwords using a table with common substitutions (e.g., `a=@`, `e=3`, etc.)
 * Replacing the toggle-case attack with a table that maps lowercase to uppercase letters (e.g., `a=A`, `b=B`, etc.)
 * Combining multiple substitution tables to generate a wider range of passwords
+* Performing transliteration attacks by substituting q=a w=z (for azerty for example)
 
 ## Running the Tool
 
